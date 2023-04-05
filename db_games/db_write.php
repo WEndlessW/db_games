@@ -65,7 +65,6 @@ include_once "db_conn.php";
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
     $sql_delete = mysqli_query($conn, "DELETE FROM games WHERE id = $id");
-    echo "$id";
 }
 
 

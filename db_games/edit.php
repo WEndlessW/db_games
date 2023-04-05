@@ -46,7 +46,7 @@ if ($resultCheck > 0) {
         </br>
         <a>Score: </a><input type="textarea" name="score" placeholder="<?php echo $p_score?>" required>
         </br>
-        <input type="submit" name="update">UPDATE
+        <input text="UPDATE" type="submit" name="update" value="UPDATE">
     </form>
 
 </body>
